@@ -1,0 +1,150 @@
+body {
+  font-family: "Lexend Deca", sans-serif;
+}
+.container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#hex-colours {
+  width: 100%;
+  text-align: center;
+}
+
+#hex-colours h1,
+h2 {
+  font-size: 2rem;
+  padding: 0.5em;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 26px;
+  -ms-animation: colourchange 5s infinite alternate;
+  -moz-animation: colourchange 5s infinite alternate;
+  -o-animation: colourchange 5s infinite alternate;
+  animation: colourchange 5s infinite alternate;
+}
+#hex-colours h2 {
+  margin-top: 4em;
+  text-transform: lowercase;
+}
+
+button {
+  margin-top: 2em;
+}
+
+@-ms-keyframes colourchange {
+  0% {
+    color: #ffffff;
+  }
+
+  20% {
+    color: #cccccc;
+  }
+
+  40% {
+    color: #999999;
+  }
+
+  60% {
+    color: #666666;
+  }
+
+  80% {
+    color: #333333;
+  }
+
+  100% {
+    color: #000000;
+  }
+}
+
+@-moz-keyframes colourchange {
+  0% {
+    color: #ffffff;
+  }
+
+  20% {
+    color: #cccccc;
+  }
+
+  40% {
+    color: #999999;
+  }
+
+  60% {
+    color: #666666;
+  }
+
+  80% {
+    color: #333333;
+  }
+
+  100% {
+    color: #000000;
+  }
+}
+
+@-o-keyframes colorchange {
+  0% {
+    color: #ffffff;
+  }
+
+  20% {
+    color: #cccccc;
+  }
+
+  40% {
+    color: #999999;
+  }
+
+  60% {
+    color: #666666;
+  }
+
+  80% {
+    color: #333333;
+  }
+
+  100% {
+    color: #000000;
+  }
+}
+
+@keyframes colorchange {
+  0% {
+    color: #ffffff;
+  }
+
+  20% {
+    color: #cccccc;
+  }
+
+  40% {
+    color: #999999;
+  }
+
+  60% {
+    color: #666666;
+  }
+
+  80% {
+    color: #333333;
+  }
+
+  100% {
+    color: #ffffff;
+  }
+}
+
+@media (max-width: 480px) {
+  #hex-colors h1 {
+    font-size: 0.9rem;
+  }
+
+  #hex-colors h2 {
+    font-size: 0.9rem;
+  }
+}
